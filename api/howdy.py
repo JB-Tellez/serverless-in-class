@@ -5,6 +5,6 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-Type','text/plain')
         self.end_headers()
-        message = "Howdy"
+        message = "Howdy Pardner"
         self.wfile.write(message.encode())
 
