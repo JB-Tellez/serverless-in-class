@@ -15,7 +15,7 @@ class handler(BaseHTTPRequestHandler):
 
             init_db()
             info = str(get_list())
-            info = "testing"
+            # info = "testing"
 
             self.send_response(200)
             self.send_header("Content-Type", "text/plain")
