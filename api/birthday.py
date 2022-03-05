@@ -14,7 +14,7 @@ class handler(BaseHTTPRequestHandler):
         if "person" in dic:
 
             init_db()
-            # info = str(get_list())
+            info = str(get_list())
             info = "testing"
 
             self.send_response(200)
